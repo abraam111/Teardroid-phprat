@@ -1,7 +1,3 @@
-# Author : script1337 [script@hacksec.in]
-# Website : https://www.hacksec.in
-# Date : Wednesday, 26 January 2022
-# Time : 04:04 AM
 
 
 from pyfiglet import Figlet
@@ -34,7 +30,7 @@ parser.add_argument(
 
 def banner() -> str:
     f = Figlet(font='slant')
-    return f.renderText("Teardroid v4")
+    return f.renderText("a3")
 
 
 def builder(name: str) -> None:
